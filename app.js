@@ -25,6 +25,7 @@ boxes.forEach((box) => {
             turnO = false;
         } else {
             box.innerText = "X";
+            box.style.color = "green";
             turnO = true;
         }
         box.disabled = true;
