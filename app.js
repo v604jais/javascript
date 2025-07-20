@@ -22,6 +22,7 @@ boxes.forEach((box) => {
         //console.log("box was clicked");
         if (turnO) {
             box.innerText = "O";
+            box.style.color = "red";
             turnO = false;
         } else {
             box.innerText = "X";
